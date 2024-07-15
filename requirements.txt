@@ -1,0 +1,5 @@
+requests
+boto3
+sqlite3
+Flask
+slackclient
