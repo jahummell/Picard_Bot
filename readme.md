@@ -1,11 +1,14 @@
 # Slack Bot for Pending Approvals
 
+This repository is free to use with credit to the author for any re-use of code.
+
 ## Overview
 
 This Slack bot retrieves a list of pending approvals on behalf of users and allows them to approve or reject requests directly via Slack. The bot uses a service account with access to act on behalf of any user. The bot runs daily at 3 PM Pacific Time on an EC2 spot instance, retrieving user IDs from Okta and checking multiple systems for pending approvals. The bot sends the list of open approvals to the user, who can then respond with approvals or rejections.
 
 ## Project Structure
 slack_bot_project/
+├── clone_repo_as_text.py
 ├── Picard.py
 ├── app.py
 ├── README.md
